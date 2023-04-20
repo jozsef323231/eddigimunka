@@ -1,0 +1,23 @@
+import turtle
+
+Window_ = turtle.Screen()
+Window_.bgcolor ("black")
+Window_.title ("Első Feladat")
+
+turtle.color("red")
+turtle.begin_fill()
+turtle.forward(50)
+turtle.right(120)
+turtle.up()
+turtle.forward(0)
+turtle.down()
+turtle.right(5)
+turtle.forward(50)
+turtle.down()
+turtle.forward(0)
+turtle.down()
+turtle.right(115)
+turtle.forward(50)
+turtle.end_fill()
+turtle.hideturtle()
+print("A feladat elvégezve!")
